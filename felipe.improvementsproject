@@ -1,0 +1,18 @@
+docs/
+├── assets/
+│   ├── css/
+│   │   ├── reset.css        # (Opcional) Reseta estilos pra evitar inconsistências
+│   │   └── styles.css       # Estilos principais
+│   ├── js/
+│   │   ├── scripts.js       # Scripts gerais
+│   │   └── modules/         # Para JS modular (boa prática moderna)
+│   │       └── utils.js
+│   ├── img/                 # Pasta para imagens do site
+│   └── fonts/               # Caso queira colocar fontes locais
+├── components/              # Fragmentos HTML (header, footer, etc)
+│   ├── header.html
+│   └── footer.html
+├── favicon.ico
+├── index.html
+├── 404.html                 # Página de erro para sites estáticos (GitHub Pages, por exemplo)
+└── README.md
